@@ -1,5 +1,5 @@
-%define	pname	DisplayConstraints
-%define	fname	displayconstraints
+%define		pname	DisplayConstraints
+%define		fname	displayconstraints
 Summary:	This sensor allows a user to set maximum constraints on a display
 Summary(pl):	Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wy¶wietlacza
 Name:		gDesklets-%{pname}
@@ -16,7 +16,7 @@ Requires:	gDesklets
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
 
 %description
 This sensor allows a user to set maximum constraints on a display.
