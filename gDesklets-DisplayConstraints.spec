@@ -4,14 +4,14 @@ Summary:	This sensor allows a user to set maximum constraints on a display
 Summary(pl):	Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wy¶wietlacza
 Name:		gDesklets-%{pname}
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{fname}-%{version}.tar.bz2
 # Source0-md5:	a36a563797dfd8c8f112323300661d02
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=61
 BuildRequires:	python >= 2.3
-BuildRequires:	python-pygtk >= 1.99.18
+BuildRequires:	python-pygtk-gtk >= 1.99.18
 Requires:	gDesklets
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
