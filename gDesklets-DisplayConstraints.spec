@@ -1,7 +1,7 @@
 %define		pname	DisplayConstraints
 %define		fname	displayconstraints
 Summary:	This sensor allows a user to set maximum constraints on a display
-Summary(pl):	Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wy¶wietlacza
+Summary(pl.UTF-8):   Ten czujnik pozwala na ustawienie maksymalnych rozmiarÃ³w wyÅ›wietlacza
 Name:		gDesklets-%{pname}
 Version:	0.1.0
 Release:	3
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This sensor allows a user to set maximum constraints on a display.
 
-%description -l pl
-Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wy¶wietlacza.
+%description -l pl.UTF-8
+Ten czujnik pozwala na ustawienie maksymalnych rozmiarÃ³w wyÅ›wietlacza.
 
 %prep
 %setup -q -n %{pname}-%{version}
