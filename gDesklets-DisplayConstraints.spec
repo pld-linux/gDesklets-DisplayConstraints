@@ -1,7 +1,7 @@
 %define		pname	DisplayConstraints
 %define		fname	displayconstraints
 Summary:	This sensor allows a user to set maximum constraints on a display
-Summary(pl.UTF-8):   Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wyświetlacza
+Summary(pl.UTF-8):	Ten czujnik pozwala na ustawienie maksymalnych rozmiarów wyświetlacza
 Name:		gDesklets-%{pname}
 Version:	0.1.0
 Release:	3
